@@ -1,0 +1,1 @@
+from tsc_core.src.app import app #noqa: F401
