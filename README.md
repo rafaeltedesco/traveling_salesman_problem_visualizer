@@ -54,12 +54,12 @@ TSP Visualizer is a web application that demonstrates a solution to the Travelin
 
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   uv sync
    ```
 
 3. Start the application:
    ```bash
-   uvicorn main:app --reload
+   uv run task start
    ```
 
 4. Open your browser and navigate to `http://127.0.0.1:8000`.
